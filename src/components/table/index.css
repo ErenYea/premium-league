@@ -1,0 +1,11 @@
+.table{
+  margin-top: 55px;
+}
+
+.inputtag{
+  display: flex;
+    justify-content: space-between;
+}
+.input{
+  display: flex;
+}

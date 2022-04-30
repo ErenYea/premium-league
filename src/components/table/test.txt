@@ -1,0 +1,33 @@
+{/* <div className="inputtag">
+        {/* <div className="heading">{tablename}</div> */}
+        {/* <div className="input"> */}
+          {/* <FormControl fullWidth> */}
+          {/* <div className="select">
+            <InputLabel id="demo-simple-select-label">Age</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={age}
+              label="Age"
+              onChange={handleChanges}
+            >
+              {columnss.map((i) => {
+                return (
+                  <MenuItem value={i["headerName"]}>{i["headerName"]}</MenuItem>
+                );
+              })}
+            </Select>
+          </div> */}
+
+          {/* </FormControl> */}
+          {/* <TextField
+            id="outlined-name"
+            label="Search"
+            value={name}
+            onChange={handleChange}
+            className="inputSearch"
+          />
+
+          <Button variant="contained">Search</Button>
+        </div> */}
+      </div> */}
