@@ -146,8 +146,12 @@ function App() {
         .then((res) => {
           console.log(res);
           console.log(res.data);
-          setSearchResult(res.data.data);
-          setFirstSearch(true);
+          if (res.data.data.length == 0) {
+            alert("no results found");
+          } else {
+            setSearchResult(res.data.data);
+            setFirstSearch(true);
+          }
         });
     }
   };
@@ -219,8 +223,12 @@ function App() {
         .then((res) => {
           console.log(res);
           console.log(res.data);
-          setSecondSearchResult(res.data.data);
-          setSecondSearch(true);
+          if (res.data.data.length == 0) {
+            alert("No result found");
+          } else {
+            setSecondSearchResult(res.data.data);
+            setSecondSearch(true);
+          }
         });
     }
   };
@@ -244,8 +252,12 @@ function App() {
         .then((res) => {
           console.log(res);
           console.log(res.data);
-          setThirdSearchResult(res.data.data);
-          setThirdSearch(true);
+          if (res.data.data.lenght == 0) {
+            alert("No results found");
+          } else {
+            setThirdSearchResult(res.data.data);
+            setThirdSearch(true);
+          }
         });
     }
   };
@@ -268,8 +280,12 @@ function App() {
         .then((res) => {
           console.log(res);
           console.log(res.data);
-          setFourthSearchResult(res.data.data);
-          setFourthSearch(true);
+          if (res.data.data.lenght == 0) {
+            alert("No results found");
+          } else {
+            setFourthSearchResult(res.data.data);
+            setFourthSearch(true);
+          }
         });
     }
   };
@@ -295,8 +311,12 @@ http://drstoneluffy12.pythonanywhere.com//givesstadiumdata?name=${stadiumname}
         .then((res) => {
           console.log(res);
           console.log(res.data);
-          setFifthSearchResult(res.data.data);
-          setFifthSearch(true);
+          if (res.data.data.lenght == 0) {
+            alert("No results found");
+          } else {
+            setFifthSearchResult(res.data.data);
+            setFifthSearch(true);
+          }
         });
     }
   };
@@ -321,8 +341,12 @@ http://drstoneluffy12.pythonanywhere.com//givespositiondata?position=${position}
         .then((res) => {
           console.log(res);
           console.log(res.data);
-          setSixthSearchResult(res.data.data);
-          setSixthSearch(true);
+          if (res.data.data.lenght == 0) {
+            alert("No results found");
+          } else {
+            setSixthSearchResult(res.data.data);
+            setSixthSearch(true);
+          }
         });
     }
   };
